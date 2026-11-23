@@ -1,0 +1,92 @@
+html {
+    background-color: rgb(6, 19, 56);
+}
+
+body {
+    font-size: 16px;
+}
+
+header {
+    color:rgb(255, 246, 127);
+    text-align: center;
+    padding: 3rem;
+}
+
+footer {
+    color:rgb(255, 246, 127);
+    text-align: center;
+    padding: 3rem;
+}
+
+h2, h3, h4, h5, h6 {
+    padding: 0.5rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+.container {
+    display: block;
+    background-color: rgb(6, 19, 56);
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding: 2rem;
+}
+
+a {
+    color:rgb(0, 215, 253);
+}
+
+main {
+    background-color:rgb(51, 88, 88);
+    padding: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.element {
+    background-color:rgb(29, 48, 48);
+    padding: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.element-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+main .element .element-content p, code{
+    padding-left: 4rem;
+    padding-right: 4rem; 
+}
+
+main .element .element-content .button-input{
+    margin-left: 4rem;
+    margin-right: 4rem; 
+}
+
+main{
+    color: rgb(216, 216, 216);
+}
+
+main h1 {
+    color:rgb(162, 255, 224);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+main h2 {
+    border-bottom: 2px solid rgb(162, 255, 224);
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: rgb(162, 255, 224);
+}
+
+main h3 {
+    border-bottom: 1px solid whitesmoke;
+}
+
+main h3, h4, h5, h6 {
+    color:whitesmoke;
+}

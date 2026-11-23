@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Liam Curry - Portfolio</title>
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="css/fonts.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Liam Curry - Portfolio</h1>
+        <nav>
+            <nav class="nav-buttons">
+                <a href="portfolio.html" class="button-input">Portfolio</a>
+                <a href="style_guide.html" class="button-input">Style Guide</a>
+            </nav>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1>Style</h1>
+        <section id="interactive_elements">
+            <h2>Interactive Elements</h2>
+
+
+            <section class="element">
+                <h3>In-text link</h3>
+
+                <div class="element-content">
+                    <h4>Rendered Element:</h4>
+                    <p class="text-link">Click <a href="https://www.google.com/" target="_blank">this</a> to go to Google.</p>
+
+                    <h4>CSS selector:</h4>
+                    <p>.text-link</p>
+
+                    <h4>Sample code:</h4>
+                    <code class="container">
+                        &lt;p class="text-link"&gt;Click &lt;a href="https://www.google.com/" target="_blank"&gt;this&lt;/a&gt; to go to Google.&lt;/p&gt;
+                    </code>
+                </div>
+
+            </section>
+
+
+            <section class="element">
+                <h3>Navigation Link</h3>
+
+                <div class="element-content">
+
+                    <h4>Rendered Element:</h4>
+                    <a class="button-input" href="https://www.google.com/">Default Button</a>
+
+                    <h4>CSS selector:</h4>
+                    <p>.button-input</p>
+
+                    <h4>Sample code:</h4>
+                    <code class="container">
+                        &lt;a href="https://www.google.com/" class="button-input"&gt;Default Button&lt;/a&gt;
+                    </code>
+                </div>
+
+            </section>
+
+
+            <section class="element">
+                <h3>Submit/Reset Buttons</h3>
+
+                <div class="element-content">
+                    <h4>Rendered Element:</h4>
+                    <div class="button-input">
+                        <input type="submit" class="submit-button" name="submit_button" value="Submit">
+                        <input type="reset" class="reset-button" name="reset_button" value="Reset">
+                    </div>
+
+                    <h4>CSS Selector:</h4>
+                    <p>.submit-button</p>
+                    <p>.reset-button</p>
+
+                    <h4>Sample code:</h4>
+                    <code class="container">
+                        &lt;input type="submit" class="submit-button" name="submit_button" value="Submit"&gt; <br>
+                        &lt;input type="reset" class="reset-button" name="reset_button" value="Reset"&gt;
+                    </code>
+                </div>
+            </section>
+
+
+            <section class="element">
+                <h3 class="header-margin2">Text Input Field with Label</h3>
+
+                <div class="element-content">
+                    <h4>Rendered Element:</h4>
+
+                    <form class="button-input" method="post" action="#">
+                        <label>Text Input Field: </label>
+                        <input type="text" class="form-input" placeholder="Type here:">
+                    </form>
+
+                    <h4>CSS Selector:</h4>
+                    <p>.form-input</p>
+
+                    <h4>Sample code:</h4>
+                    <code class="container">
+                        &lt;label>Text Input Field: &lt;/label&gt; <br>
+                        &lt;input type="text" class="form-input" placeholder="Type here:"&gt;
+                    </code>
+                </div>
+            </section>
+
+
+            <section class="element">
+                <h3>Radio Button with Label</h3>
+
+                <div class="element-content">
+                    <h4>Rendered Element:</h4>
+                    
+                    <div class="button-input">
+                        <input type="radio" class="radio-button" id="radio_button1" name="radio_button">
+                        <label for="radio_button1">Radio Button 1</label>
+                        <input type="radio" class="radio-button" id="radio_button2" name="radio_button">
+                        <label for="radio_button2">Radio Button 2</label>
+                        <input type="radio" class="radio-button" id="radio_button3" name="radio_button">
+                        <label for="radio_button3">Radio Button 3</label>
+                    </div>
+                    <h4>CSS Selector:</h4>
+                    <p>.radio-button</p>
+
+                    <h4>Sample code:</h4>
+                    <code class="container">
+                        &lt;div class="button-input"&gt; <br>
+                            &lt;input type="radio" class="radio-button" id="radio_button1" name="radio_button"&gt; <br>
+                            &lt;label for="radio_button1">Radio Button 1&lt;/label&gt; <br>
+                            &lt;input type="radio" class="radio-button" id="radio_button2" name="radio_button"&gt; <br>
+                            &lt;label for="radio_button2">Radio Button 1&lt;/label&gt; <br>
+                            &lt;input type="radio" class="radio-button" id="radio_button3" name="radio_button"&gt; <br>
+                            &lt;label for="radio_button3">Radio Button 1&lt;/label&gt; <br>
+                        &lt;/div&gt;
+                    </code>
+                </div>
+            </section>
+
+
+            <section class="element">
+                <h3>Image as a Link</h3>
+
+                <div class="element-content">
+                    <h4>Rendered Element:</h4>
+                    <figure class="button-input image-link">
+                        <a href="https://www.google.com/">
+                            <img src="img/TestLogo.png" alt="A test asset logo I made for a passion project.">
+                        </a>
+                    </figure>
+
+                    <h4>CSS Selector:</h4>
+                    <p>.image-link</p>
+
+                    <h4>Sample code:</h4>
+                    <code class="container">
+                        &lt;figure class="button-input image-link"&gt; <br>
+                        &lt;a href="https://www.google.com/"&gt; <br>
+                            &lt;img src="img/TestLogo.png" alt="A test asset logo I made for a passion project."&gt; <br>
+                        &lt;/a&gt;
+                    </figure>
+                    </code>
+                </div>
+            </section>
+
+        </section>
+
+
+
+        <section id="text_elements">
+            <h2>Text Elements</h2>
+
+            <section class="element">
+                <h3>Headings</h3>
+
+                <div class="element-content">
+                    <h4>Rendered Element:</h4>
+
+                    <div class="container">
+                        <h1>Header 1</h1>
+                        <h2>Header 2</h2>
+                        <h3>Header 3</h3>
+                        <h4>Header 4</h4>
+                    </div>
+
+                    <h4>CSS Selector:</h4>
+                    <p>h1, h2, h3, h4, h5, h6</p>
+
+                    <h4>Sample code:</h4>
+                    
+                    <code class="container">
+                        &lt;h1&gt;Header 1&lt;/h1&gt; <br>
+                        &lt;h2&gt;Header 2&lt;/h2&gt; <br>
+                        &lt;h3&gt;Header 3&lt;/h3&gt; <br>
+                        &lt;h4&gt;Header 4&lt;/h4&gt;
+                    </code>
+                </div>
+            </section>
+
+
+            <section class="element">
+                <h3>Paragraphs</h3>
+
+                <div class="element-content">
+                    <h4>Rendered Element:</h4>
+                    <p>This is a paragraph.</p>
+
+                    <h4>CSS Selector:</h4>
+                    <p>p</p>
+
+                    <h4>Sample code:</h4>
+                    <code class="container"> &lt;p&gt;This is a paragraph.&lt;/p&gt; </code>
+                </div>
+            </section>
+
+
+            <section class="element">
+                <h3>Numbered Lists</h3>
+                
+                <div class="element-content">
+                    <h4>Rendered Element:</h4>
+                    <ol>
+                        <li>Entry 1</li>
+                        <li>Entry 2</li>
+                        <li>Entry 3</li>
+                        <li>Entry 4</li>
+                        <li>Entry 5</li>
+                    </ol>
+
+                    <h4>CSS Selector:</h4>
+                    <p>.numbered-list</p>
+
+                    <h4>Sample code:</h4>
+                    <code class="container">
+                        &lt;ol&gt; <br>
+                        &lt;li&gt;Entry 1&lt;/li&gt; <br>
+                        &lt;li&gt;Entry 2&lt;/li&gt; <br>
+                        &lt;li&gt;Entry 3&lt;/li&gt; <br>
+                        &lt;li&gt;Entry 4&lt;/li&gt; <br>
+                        &lt;li&gt;Entry 5&lt;/li&gt; <br>
+                        &lt;/ol&gt;
+                    </code> 
+                    
+                </div>
+            </section>
+
+        </section>
+
+
+        <!-- COMBINED ELEMENTS SECTION // -->
+        <section id="combined-elements">
+
+        </section>
+
+        <section id="branding">
+            <h2>Branding</h2>
+
+            <section class="element">
+                <h3>Fonts</h3>
+
+                <div class="element-content">
+                    <h4></h4>
+                    <p></p>
+                </div>
+            </section>
+
+
+            <section class="element">
+                <h3>Font Pairings</h3>
+
+                <div class="element-content">
+                    <p></p>
+                </div>
+            </section>
+
+
+            <section class="element">
+                <h3>Colour Palettes</h3>
+
+                <div class="element-content">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </section>
+
+
+            <section class="element">
+                <h3>Imagery & Art Direction</h3>
+                <p></p>
+            </section>
+
+        </section>
+    </main>
+
+
+    <footer>
+        <h3>Footer</h3>
+        <p>Test Footer</p>
+    </footer>
+
+</body>
+</html>
